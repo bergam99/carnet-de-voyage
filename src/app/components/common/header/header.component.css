@@ -1,0 +1,37 @@
+*{
+  font-family: 'Inter', sans-serif;
+}
+.Header {
+  position: relative;
+  display: flex;
+  height: 100vh;
+  width: 154px;
+  background-color: var(--color-beige);
+  box-sizing: inline-block;
+
+
+}
+
+.text {
+  top: 100px;
+  left: 35%;
+  width: 150px;
+  position: absolute;
+  flex: 1;
+  border: 1px solid black;
+  transform: rotate(-90deg) translateX(-50%); /* Rotate the text and move it to the center horizontally */
+  transform-origin: top left;
+}
+
+.weather{
+  top:400px;
+  text-align: center;
+}
+
+
+/* @media screen and (min-width: 768px) { */
+  /* .text { */
+    /* transform-origin: top left; */
+    /* left:0; */
+  /* } */
+/* } */
