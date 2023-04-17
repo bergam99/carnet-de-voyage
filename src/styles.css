@@ -17,7 +17,8 @@ button {
   all: unset;
 }
 
-Img {
+img {
+  max-width: 100%;
   display: block;
 }
 
