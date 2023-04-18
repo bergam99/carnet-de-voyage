@@ -16,6 +16,7 @@ import { PourVoyagerUnPeuPlusComponent } from './components/pour-voyager-un-peu-
 // pg
 import { HomeComponent } from './pages/home/home.component';
 import { ArticleComponent } from './pages/article/article.component';
+import { TitleArticleComponent } from './components/title-article/title-article.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ArticleComponent } from './pages/article/article.component';
     ButtonRetourComponent,
     VoyageSummeryComponent,
     AvisComponent,
-    PourVoyagerUnPeuPlusComponent
+    PourVoyagerUnPeuPlusComponent,
+    TitleArticleComponent
 
   ],
   imports: [

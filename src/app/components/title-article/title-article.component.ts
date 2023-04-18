@@ -1,14 +1,14 @@
 import { Component } from '@angular/core';
-import { Travel } from 'src/app/mock/travel-mock/travel.mock';
-import { ArticleService } from '../../services/article/article.service';
 import { ActivatedRoute, Router } from '@angular/router';
+import { Travel } from 'src/app/mock/travel-mock/travel.mock';
+import { ArticleService } from 'src/app/services/article/article.service';
 
 @Component({
-  selector: 'app-article',
-  templateUrl: './article.component.html',
-  styleUrls: ['./article.component.css']
+  selector: 'app-title-article',
+  templateUrl: './title-article.component.html',
+  styleUrls: ['./title-article.component.css']
 })
-export class ArticleComponent {
+export class TitleArticleComponent {
   article?:Travel;
 
   constructor(

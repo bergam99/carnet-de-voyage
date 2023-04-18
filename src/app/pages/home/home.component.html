@@ -1,18 +1,18 @@
 <section>
   <ul>
     <li *ngFor="let article of articles">
-      <!-- <button routerLink="/articles/{{article.id}}"> -->
+      <a routerLink="/articles/{{article.id}}">
         <img *ngIf="article.isMainArticle === true" src="{{article.principalImage}}" alt="img">
-      <!-- </button> -->
+      </a>
     </li>
   </ul>
 
       <h2>Autres voyages</h2>
       <ul>
         <li *ngFor="let article of articles">
-          <button>
+          <a routerLink="/articles/{{article.id}}">
             <img *ngIf="article.isMainArticle === false" src="{{article.principalImage}}" alt="img">
-          </button>
+          </a>
         </li>
       </ul>
 

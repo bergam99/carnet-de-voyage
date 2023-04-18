@@ -1,3 +1,4 @@
+import { Location } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./button-retour.component.css']
 })
 export class ButtonRetourComponent {
+
+  constructor(private location:Location){}
+    back():void{
+      this.location.back();
+    }
+
 
 }
