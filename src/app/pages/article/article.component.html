@@ -1,24 +1,24 @@
 <section *ngIf="article">
 
   <app-title-article></app-title-article>
-  <div class="flex">
-    <p class="Lora">{{article.dateForDeparture}}</p> ·
-    <p class="Inter">{{article.returnDate}}</p>
-  </div>
 
-
-  <img src="{{article.principalImage}}" alt="img">
 
   <app-button-retour></app-button-retour>
 
+  <!-- voyage -->
+  <h2 class="Lora title">Le voyage</h2>
 
-  <h2>Le voyage</h2>
+  <app-voyage-summery emptyText="{{article.textAboutTheTrip}}"></app-voyage-summery>
 
-  <h2>Notre avis</h2>
 
-  <h2>En résumé</h2>
+  <app-avis></app-avis>
+  <!-- resume -->
+  <h2 class="Lora title">Le En résumé</h2>
 
-  <h2>pour voyager un peu plus</h2>
+  <app-voyage-summery emptyText="{{article.resume}}"></app-voyage-summery>
+
+
+  <h2 class="Lora title">pour voyager un peu plus</h2>
 
 
 </section>

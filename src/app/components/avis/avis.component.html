@@ -1,1 +1,23 @@
-<p>avis works!</p>
+<h2 class="Lora margin title">Notre avis</h2>
+
+<ul>
+  <ng-container *ngIf="article">
+    <!-- <li *ngIf="articles.length> 0" class="img-container"> -->
+
+    <div class="margin">
+      <h3 class="Lora margin-buttom">Les plus</h3>
+      <li class="Inter"> {{article.positifPoint}}</li>
+    </div>
+
+    <div class="margin">
+      <h3 class="Lora margin-buttom">Les moins</h3>
+      <li class="Inter"> {{article.negativePoint}}</li>
+    </div>
+
+    <div class="margin">
+    <h3 class="Lora margin-buttom">Mon conseil</h3>
+    <li class="Inter"> {{article.BoardOfAdvice}}</li>
+    </div>
+    <!-- </li> -->
+  </ng-container>
+</ul>

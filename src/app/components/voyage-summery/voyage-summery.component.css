@@ -1,0 +1,7 @@
+section{
+  background-color: var(--color-brown);
+  color: white;
+  padding: 3vw;
+  margin: 3vw 0;
+  /* border: 1px solid red; */
+}

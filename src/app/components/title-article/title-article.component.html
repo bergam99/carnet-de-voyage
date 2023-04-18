@@ -1,3 +1,11 @@
 <section *ngIf="article">
-  <h1>{{article.country}}-{{article.city}}</h1>
+  <h1 class="Lora font title">{{article.country}}-{{article.city}}</h1>
+
+  <div class="flex">
+    <p class="Lora">{{article.dateForDeparture}}</p> ·
+    <p class="Inter">{{article.returnDate}}</p>
+  </div>
+
+
+  <img class="margin" src="{{article.principalImage}}" alt="img">
 </section>

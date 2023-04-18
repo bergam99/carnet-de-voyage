@@ -1,5 +1,9 @@
-.flex{
-  display: flex;
+section{
+  width:min(1029px, 100%);
+  margin: 0 auto 63px;
 }
 
 
+.title{
+  font-size: 3rem
+}
