@@ -1,1 +1,16 @@
-<p>dernier-article works!</p>
+<section>
+  <ul>
+    <ng-container *ngFor="let article of articles">
+      <li *ngIf="article.isMainArticle === true" class="img-container">
+        <a routerLink="/articles/{{article.id}}">
+          <img src="{{article.principalImage}}" alt="img">
+
+          <div class="ticket Lora">
+            <div class="bar Lora">{{article.country}} - {{article.city}}</div>
+            <div class="bar Lora">{{article.dateForDeparture}} · {{article.returnDate}}</div>
+          </div>
+        </a>
+      </li>
+    </ng-container>
+  </ul>
+</section>

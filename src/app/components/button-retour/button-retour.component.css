@@ -7,3 +7,19 @@
 button{
   background-color: var(--color-brown);
 }
+
+/* fixed back button */
+/* .container {
+  position: relative;
+  height: 1000px; /* adjust as needed */
+
+
+button {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+
+img{
+  /* width: 30px; */
+}
