@@ -1,0 +1,9 @@
+
+.back {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg);
+  width: clamp(74px, 13vw, 150px);
+}
+
+button{
+  background-color: var(--color-brown);
+}

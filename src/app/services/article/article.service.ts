@@ -12,6 +12,6 @@ export class ArticleService {
   }
 
   getArticle(id: number): Travel | undefined {
-    return TRAVEL.find((article) => article.id === id);
+    return TRAVEL.find(article => article.id === id);
   }
 }

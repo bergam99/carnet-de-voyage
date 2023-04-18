@@ -1,1 +1,22 @@
-<p>article works!</p>
+<section *ngIf="article">
+
+  <app-button-retour></app-button-retour>
+
+  <img src="{{article.principalImage}}" alt="img">
+
+  <app-title-article></app-title-article>
+
+  <p>{{article.dateForDeparture}}</p>
+
+  <h2>Le voyage</h2>
+
+  <h2>Notre avis</h2>
+
+  <h2>En résumé</h2>
+
+  <h2>pour voyager un peu plus</h2>
+
+
+</section>
+
+
