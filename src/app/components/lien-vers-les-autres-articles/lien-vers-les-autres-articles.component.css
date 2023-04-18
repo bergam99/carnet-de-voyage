@@ -1,3 +1,4 @@
+
 *{
   list-style: none;
   /* overflow: scroll; */
@@ -13,7 +14,7 @@
 
 
 .margin{
-  margin:10vh 0 5vh 0;
+  margin:10vh 5vh ;
 }
 
 
@@ -21,8 +22,7 @@
 .ticket{
   color: var(--color-white);
   background-color: var(--color-brown);
-  font-family: 'Lora', serif;
-  font-weight: 400;
+  /* font-family: 'Lora', serif; */
   /* opacity: 0.8; */
 
   /* flex */
@@ -55,5 +55,10 @@
 
 .img-container{
   position: relative;
+}
+.wrap{
+  display: flex;
+
+  flex-wrap: wrap;
 
 }

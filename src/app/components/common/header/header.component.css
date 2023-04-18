@@ -3,7 +3,7 @@
 .Header {
   position: relative;
   display: flex;
-  height: 100vh;
+  height: 100%;
   width: 154px;
   background-color: var(--color-beige);
   /* box-sizing: inline-block; */
@@ -18,10 +18,10 @@
   width: 150px;
   position: absolute;
   flex: 1;
-  border-right: 1px solid black;
+  /* border-right: 1px solid black; */
   transform: rotate(-90deg) translateX(-50%); /* Rotate the text and move it to the center horizontally */
   transform-origin: top left;
-
+  border: 1px solid red;
   /* line */
 }
 
