@@ -7,6 +7,7 @@ font-weight:100;
 
 section{
   width:min(1029px, 100%);
+  margin-top: clamp(165px 50vh 44px);
   margin: 165px auto 63px;
 }
 

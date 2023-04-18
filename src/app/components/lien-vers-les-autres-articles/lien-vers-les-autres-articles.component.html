@@ -1,1 +1,15 @@
-<p>lien-vers-les-autres-articles works!</p>
+<h2 class="margin">Autres voyages</h2>
+<ul class="grid">
+  <ng-container *ngFor="let article of articles">
+    <li *ngIf="article.isMainArticle === false" class="img-container">
+      <a routerLink="/articles/{{article.id}}">
+        <img src="{{article.principalImage}}" alt="img">
+
+        <div class="ticket">
+          <div class="bar">{{article.country}} - {{article.city}}</div>
+          <div class="bar"> Du {{article.dateForDeparture}}<br /> au {{article.returnDate}}</div>
+        </div>
+      </a>
+    </li>
+  </ng-container>
+</ul>

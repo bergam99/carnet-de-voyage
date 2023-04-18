@@ -1,20 +1,7 @@
 <section>
-  <ul>
-    <li *ngFor="let article of articles">
-      <a routerLink="/articles/{{article.id}}">
-        <img *ngIf="article.isMainArticle === true" src="{{article.principalImage}}" alt="img">
-      </a>
-    </li>
-  </ul>
 
-      <h2>Autres voyages</h2>
-      <ul>
-        <li *ngFor="let article of articles">
-          <a routerLink="/articles/{{article.id}}">
-            <img *ngIf="article.isMainArticle === false" src="{{article.principalImage}}" alt="img">
-          </a>
-        </li>
-      </ul>
+<app-dernier-article></app-dernier-article>
 
+<app-lien-vers-les-autres-articles></app-lien-vers-les-autres-articles>
 
 </section>

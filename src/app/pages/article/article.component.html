@@ -1,12 +1,16 @@
 <section *ngIf="article">
 
-  <app-button-retour></app-button-retour>
+  <app-title-article></app-title-article>
+  <div class="flex">
+    <p class="Lora">{{article.dateForDeparture}}</p> ·
+    <p class="Inter">{{article.returnDate}}</p>
+  </div>
+
 
   <img src="{{article.principalImage}}" alt="img">
 
-  <app-title-article></app-title-article>
+  <app-button-retour></app-button-retour>
 
-  <p>{{article.dateForDeparture}}</p>
 
   <h2>Le voyage</h2>
 
@@ -18,5 +22,3 @@
 
 
 </section>
-
-
