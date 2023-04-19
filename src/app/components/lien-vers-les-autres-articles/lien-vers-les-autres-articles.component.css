@@ -62,3 +62,19 @@
   flex-wrap: wrap;
 
 }
+
+.flex{
+display: flex;
+flex-direction: column;
+}
+
+.font-size{
+  font-size:clamp(50px 5vw 30px);
+  font-weight: 100;
+}
+
+.img-resize{
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}

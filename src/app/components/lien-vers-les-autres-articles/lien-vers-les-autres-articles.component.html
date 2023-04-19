@@ -1,16 +1,23 @@
 <section>
-    <h2 class="margin title">Autres voyages</h2>
+  <h2 class="margin title">Autres voyages</h2>
 
   <ul class="grid">
     <ng-container *ngFor="let article of articles">
       <li *ngIf="article.isMainArticle === false" class="img-container">
         <a routerLink="/articles/{{article.id}}">
-          <img src="{{article.principalImage}}" alt="img">
+
+          <img class="img-resize" src="{{article.principalImage}}" alt="img">
 
           <div class="ticket">
-            <div class="bar">{{article.country}} - {{article.city}}</div>
+            <div class="bar">
+              <div class="flex">
+                <div class="Lora font-size">{{article.country}}</div>
+                <div class="Inter">{{article.city}}</div>
+              </div>
+            </div>
             <div class="bar"> Du {{article.dateForDeparture}}<br /> au {{article.returnDate}}</div>
           </div>
+
         </a>
       </li>
     </ng-container>

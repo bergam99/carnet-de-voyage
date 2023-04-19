@@ -1,1 +1,12 @@
-<p>pour-voyager-un-peu-plus works!</p>
+<h2 class="Lora title">pour voyager un peu plus</h2>
+
+<section>
+  <ul>
+    <li *ngIf="article" class="grid">
+      <ng-container *ngFor="let url of article.secondaryImageDisplay">
+        <img class="img-resize" [src]="url" alt="img">
+      </ng-container>
+    </li>
+  </ul>
+</section>
+
