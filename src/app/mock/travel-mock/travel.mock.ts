@@ -51,7 +51,17 @@ export const TRAVEL: Travel[] = [
     dateForDeparture: '12.04.22',
     returnDate: '20.05.22',
     principalImage: '/assets/img/Slovenie.png',
-    secondaryImageDisplay: ["/assets/secondaryImge/2-montagne.png", "/assets/secondaryImge/2-1.png", "/assets/secondaryImge/2-2.png","/assets/secondaryImge/2-3.png", "/assets/secondaryImge/2-4.png", "/assets/secondaryImge/2-5.png", "/assets/secondaryImge/2-6.PNG", "/assets/secondaryImge/2-7.JPG", "/assets/secondaryImge/2-8.JPG"],
+    secondaryImageDisplay: [
+      '/assets/secondaryImge/2-montagne.png',
+      '/assets/secondaryImge/2-1.png',
+      '/assets/secondaryImge/2-2.png',
+      '/assets/secondaryImge/2-3.png',
+      '/assets/secondaryImge/2-4.png',
+      '/assets/secondaryImge/2-5.png',
+      '/assets/secondaryImge/2-6.PNG',
+      '/assets/secondaryImge/2-7.JPG',
+      '/assets/secondaryImge/2-8.JPG',
+    ],
     textAboutTheTrip:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor massa id sem iaculis, et rutrum ligula ornare. Etiam malesuada diam justo, nec sagittis ligula rhoncus sit amet. Fusce ac viverra nisi. Integer nibh urna, posuere euismod dolor ac Donec commodo pellentesque sapien eu interdum. Vestibulum neque nulla, mattis eget hendrerit nec, tempus pharetra est. Nulla facilisi. Curabitur elit lorem, rhoncus quis quam et, imperdiet euismod mi. Morbi eget elit ac velit porttitor sodales. Nulla scelerisque risus ex, a faucibus est eleifend sed. Aliquam ac facilisis lorem, ut ornare velit.dignissim metus. Aliquam dignissim lorem id nisi aliquet, a sodales ipsum dignissim',
     resume:
@@ -68,7 +78,12 @@ export const TRAVEL: Travel[] = [
     dateForDeparture: '14.04.22',
     returnDate: '27.05.22',
     principalImage: '/assets/img/Guatemala.png',
-    secondaryImageDisplay: ["/assets/secondaryImge/3-1.png", "/assets/secondaryImge/3-2.png", "/assets/secondaryImge/3-3.JPG","/assets/secondaryImge/3-sud.png"],
+    secondaryImageDisplay: [
+      '/assets/secondaryImge/3-1.png',
+      '/assets/secondaryImge/3-2.png',
+      '/assets/secondaryImge/3-3.JPG',
+      '/assets/secondaryImge/3-sud.png',
+    ],
     textAboutTheTrip:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor massa id sem iaculis, et rutrum ligula ornare. Etiam malesuada diam justo, nec sagittis ligula rhoncus sit amet. Fusce ac viverra nisi. Integer nibh urna, posuere euismod dolor ac Donec commodo pellentesque sapien eu interdum. Vestibulum neque nulla, mattis eget hendrerit nec, tempus pharetra est. Nulla facilisi. Curabitur elit lorem, rhoncus quis quam et, imperdiet euismod mi. Morbi eget elit ac velit porttitor sodales. Nulla scelerisque risus ex, a faucibus est eleifend sed. Aliquam ac facilisis lorem, ut ornare velit.dignissim metus. Aliquam dignissim lorem id nisi aliquet, a sodales ipsum dignissim',
     resume:
@@ -85,7 +100,13 @@ export const TRAVEL: Travel[] = [
     dateForDeparture: '15.04.22',
     returnDate: '11.05.22',
     principalImage: '/assets/img/Greece.png',
-    secondaryImageDisplay: ["/assets/secondaryImge/4-1.png", "/assets/secondaryImge/4-2.JPG", "/assets/secondaryImge/4-3.JPG", "/assets/secondaryImge/4-4.png", "/assets/secondaryImge/4-swiss.png"],
+    secondaryImageDisplay: [
+      '/assets/secondaryImge/4-1.png',
+      '/assets/secondaryImge/4-2.JPG',
+      '/assets/secondaryImge/4-3.JPG',
+      '/assets/secondaryImge/4-4.png',
+      '/assets/secondaryImge/4-swiss.png',
+    ],
     textAboutTheTrip:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor massa id sem iaculis, et rutrum ligula ornare. Etiam malesuada diam justo, nec sagittis ligula rhoncus sit amet. Fusce ac viverra nisi. Integer nibh urna, posuere euismod dolor ac Donec commodo pellentesque sapien eu interdum. Vestibulum neque nulla, mattis eget hendrerit nec, tempus pharetra est. Nulla facilisi. Curabitur elit lorem, rhoncus quis quam et, imperdiet euismod mi. Morbi eget elit ac velit porttitor sodales. Nulla scelerisque risus ex, a faucibus est eleifend sed. Aliquam ac facilisis lorem, ut ornare velit.dignissim metus. Aliquam dignissim lorem id nisi aliquet, a sodales ipsum dignissim',
     resume:
@@ -102,7 +123,18 @@ export const TRAVEL: Travel[] = [
     dateForDeparture: '20.09.22',
     returnDate: '20.10.22',
     principalImage: '/assets/img/Tunisie.png',
-    secondaryImageDisplay: ["/assets/secondaryImge/5-1.png", "/assets/secondaryImge/5-2.png", "/assets/secondaryImge/5-3.JPG", "/assets/secondaryImge/5-4.JPG", "/assets/secondaryImge/5-5.JPG", "/assets/secondaryImge/5-6.JPG", "/assets/secondaryImge/5-7.JPG", "/assets/secondaryImge/5-8.JPG", "/assets/secondaryImge/5-9.JPG", "/assets/secondaryImge/5-ville.png"],
+    secondaryImageDisplay: [
+      '/assets/secondaryImge/5-1.png',
+      '/assets/secondaryImge/5-2.png',
+      '/assets/secondaryImge/5-3.JPG',
+      '/assets/secondaryImge/5-4.JPG',
+      '/assets/secondaryImge/5-5.JPG',
+      '/assets/secondaryImge/5-6.JPG',
+      '/assets/secondaryImge/5-7.JPG',
+      '/assets/secondaryImge/5-8.JPG',
+      '/assets/secondaryImge/5-9.JPG',
+      '/assets/secondaryImge/5-ville.png',
+    ],
     textAboutTheTrip:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor massa id sem iaculis, et rutrum ligula ornare. Etiam malesuada diam justo, nec sagittis ligula rhoncus sit amet. Fusce ac viverra nisi. Integer nibh urna, posuere euismod dolor ac Donec commodo pellentesque sapien eu interdum. Vestibulum neque nulla, mattis eget hendrerit nec, tempus pharetra est. Nulla facilisi. Curabitur elit lorem, rhoncus quis quam et, imperdiet euismod mi. Morbi eget elit ac velit porttitor sodales. Nulla scelerisque risus ex, a faucibus est eleifend sed. Aliquam ac facilisis lorem, ut ornare velit.dignissim metus. Aliquam dignissim lorem id nisi aliquet, a sodales ipsum dignissim',
     resume:

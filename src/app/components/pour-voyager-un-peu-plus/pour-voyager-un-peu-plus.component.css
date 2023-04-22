@@ -1,15 +1,53 @@
-
-.img-resize {
-  width: 320px;
-  height: 320px;
-  object-fit: cover;
+*{
+  padding: 0;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  /* grid-column-gap: 1vh; */
-  grid-row-gap: 1vh;
-  }
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/* .container {
+  border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-wrap: wrap;
+} */
 
+.img {
+  width: calc(33.33% - 10px);
+  height: 100%;
+  margin-bottom: 1.5vh;
+  /* border:5px solid yellowgreen; */
+  justify-content: space-between;
+
+}
+
+
+.imgs {
+  position: relative;
+  object-fit: contain;
+  /* border:5px solid green; */
+}
+.img-resize {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+/*
+
+@media (max-width: 768px) {
+  img.img-resize {
+    width: calc(30% - 10px);
+    /* 간격을 위해 -10px을 줌 */
+    @media (max-width: 967px) {
+      .flex {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .imgs {
+        width: 100%;
+      }
+    }
