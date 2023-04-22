@@ -1,5 +1,24 @@
-section{
-  width:min(1029px, 100%);
-  margin: 0 auto 63px;
+
+section {
+  width: min(1029px, 100%);
+  /* margin-top: clamp(165px 50vh 44px); */
+  margin: 165px auto 63px;
 }
 
+@media (max-width:1205px) {
+  section {
+    /* margin: 0 2vw 2vw; */
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+
+  ;
+}
+
+
+/*
+@media screen and (max-width: 600px) {
+  .Lora .Inter {
+    font-size: 30px;
+  }
+} */

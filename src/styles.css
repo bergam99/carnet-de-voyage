@@ -6,25 +6,23 @@
 
 /* font */
 
-.Lora{
+.Lora {
   font-family: 'Lora', serif;
   font-weight: 400;
+    font-size: 1.3vw;
+
 }
 
-.Inter{
+.Inter {
   font-family: 'Inter', sans-serif;
-    font-weight: 400;
+  font-weight: 400;
+  font-size: 1.2vw;
 
 }
-/* .title{
-  font-size: 3vw;
-} */
-.title{
-  border: 1px solid red;
-  font-size: clamp(1rem, 10vw, 2rem);
-  /* width: clamp(10vw, 20em, 100vw); */
 
-  /* font-size: clamp(2vw 3vw 4vw); */
+.title {
+font-size: 3vw;
+font-weight: 100;
 }
 
 /* normalize */
@@ -64,3 +62,9 @@ body {
 }
 
 
+/*
+@media screen and (max-width: 600px) {
+  .Lora .Inter {
+    font-size: 30px;
+  }
+} */
