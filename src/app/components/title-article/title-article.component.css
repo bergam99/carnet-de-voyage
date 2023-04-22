@@ -2,10 +2,6 @@
   display: flex;
 }
 
-font{
-  font-size:100px;
-}
-
 .margin{
   margin: 5vh auto 10vh;
 }
