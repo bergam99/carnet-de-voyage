@@ -6,19 +6,15 @@
 
 
 section {
+  /* padding-left: 10vw;
+  margin-left: 10vw; */
   width: min(1029px, 100%);
   margin: 165px auto 63px;
 }
 
 /*
-@media screen and (max-width: 600px) {
-  .Lora .Inter {
-    font-size: 30px;
-  }
-} */
-
 @media (max-width:1205px) {
   section {
     margin: 0 2vw 0vw 2vw;
   }
-}
+} */
