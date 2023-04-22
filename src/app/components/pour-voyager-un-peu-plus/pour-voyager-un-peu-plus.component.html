@@ -2,11 +2,10 @@
 
 <section>
   <ul>
-    <li *ngIf="article" class="grid">
+    <li *ngIf="article" class="flex imgs">
       <ng-container *ngFor="let url of article.secondaryImageDisplay">
-        <img class="img-resize" [src]="url" alt="img">
+        <img class="img-resize" [src]="url" alt="img" class="img img-resize">
       </ng-container>
     </li>
   </ul>
 </section>
-

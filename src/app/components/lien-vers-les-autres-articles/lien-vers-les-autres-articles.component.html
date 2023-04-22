@@ -3,7 +3,7 @@
 
   <ul class="grid">
     <ng-container *ngFor="let article of articles">
-      <li *ngIf="article.isMainArticle === false" class="img-container">
+      <li *ngIf="article.isMainArticle === false" class="imgs">
         <a routerLink="/articles/{{article.id}}">
 
           <img class="img-resize" src="{{article.principalImage}}" alt="img">

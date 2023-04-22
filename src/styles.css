@@ -16,10 +16,16 @@
     font-weight: 400;
 
 }
+/* .title{
+  font-size: 3vw;
+} */
 .title{
-  font-size: 3em
-}
+  border: 1px solid red;
+  font-size: clamp(1rem, 10vw, 2rem);
+  /* width: clamp(10vw, 20em, 100vw); */
 
+  /* font-size: clamp(2vw 3vw 4vw); */
+}
 
 /* normalize */
 * body {
@@ -34,6 +40,7 @@ button {
 
 img {
   max-width: 100%;
+  /* fit ticket on the buttom of img */
   display: block;
 }
 
