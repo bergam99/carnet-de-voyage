@@ -40,6 +40,7 @@
   padding: 0 3vw;
 }
 
+
 .imgs {
   width: calc(50% - 10px);
   height: 100%;
@@ -74,5 +75,11 @@
   .imgs {
     width: 100%;
     /* margin-bottom: 10px; */
+  }
+}
+
+@media (max-width:800px) {
+  .ticket {
+    height: 70px;
   }
 }

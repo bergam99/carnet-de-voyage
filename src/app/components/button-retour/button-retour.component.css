@@ -1,25 +1,25 @@
-
-.back {
+.container{
+  z-index: 9999;
+}
+.icon {
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg);
-  width: clamp(74px, 13vw, 150px);
+  /* width: clamp(74px, 13vw, 150px); */
+  width: 7vw;
+  border:none;
+  padding: 30px;
 }
-
-button{
-  background-color: var(--color-brown);
-}
-
-/* fixed back button */
-/* .container {
-  position: relative;
-  height: 1000px; /* adjust as needed */
 
 
 button {
   position: fixed;
   bottom: 0px;
   right: 0px;
+  background-color: var(--color-brown);
+  z-index: 1;
+
+
 }
 
-img{
-  /* width: 30px; */
+button:hover {
+  cursor: pointer; /* 마우스 호버시 커서 모양 변경 */
 }
