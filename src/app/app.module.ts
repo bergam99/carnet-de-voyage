@@ -17,6 +17,9 @@ import { PourVoyagerUnPeuPlusComponent } from './components/pour-voyager-un-peu-
 import { HomeComponent } from './pages/home/home.component';
 import { ArticleComponent } from './pages/article/article.component';
 import { TitleArticleComponent } from './components/title-article/title-article.component';
+// api
+import { HttpClientModule } from '@angular/common/http';
+import { WeatherApiComponent } from './components/weather/weather-api/weather-api.component';
 
 @NgModule({
   declarations: [
@@ -31,12 +34,14 @@ import { TitleArticleComponent } from './components/title-article/title-article.
     VoyageSummeryComponent,
     AvisComponent,
     PourVoyagerUnPeuPlusComponent,
-    TitleArticleComponent
+    TitleArticleComponent,
+    WeatherApiComponent
 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
