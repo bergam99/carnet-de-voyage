@@ -63,10 +63,10 @@
 
 ###### Avis : 
   - Afficher la section Avis sur la page details.
-  - Si length > 0 ne pas afficher son container
+  - Si seulement length > 0 , afficher son container
 
 ###### Button-retour : 
-  - retourner vers Home page.
+  - retourner sur Home page.
 
 ###### Dernier-article :
   - si l'article est isMainArticle, afficher en tête avec son ticket.
