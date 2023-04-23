@@ -1,6 +1,6 @@
 * {
   list-style: none;
-  font-weight: 100;
+  /* font-weight: 100; */
 }
 
 
@@ -55,6 +55,8 @@ section {
     height: 100%;
     display: flex;
     align-items: center;
-
+  }
+  .main{
+    margin: 0 5vw;
   }
 }

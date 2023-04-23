@@ -1,5 +1,5 @@
 <section>
-  <h2 class="margin title">Autres voyages</h2>
+  <h2 class="margin title Lora">Autres voyages</h2>
 
   <ul class="grid">
     <ng-container *ngFor="let article of articles">
@@ -12,10 +12,10 @@
             <div class="bar">
               <div class="flex">
                 <div class="Lora font-size">{{article.country}}</div>
-                <div class="Inter">{{article.city}}</div>
+                <div class="Inter size">{{article.city}}</div>
               </div>
             </div>
-            <div class="bar Lora"> Du {{article.dateForDeparture}}<br /> au {{article.returnDate}}</div>
+            <div class="bar Inter"> Du {{article.dateForDeparture}}<br /> au {{article.returnDate}}</div>
           </div>
         </a>
       </li>
