@@ -1,23 +1,34 @@
-<h2 class="Lora margin title">Notre avis</h2>
+<h2 class="Lora margin title font">Notre avis</h2>
 
-<ul>
+<section>
   <ng-container *ngIf="article">
     <!-- <li *ngIf="articles.length> 0" class="img-container"> -->
+<!--
+    <div class="margin">
+      <ul *ngIf="article.positifPoint.length > 0" class="Lora margin-buttom font-small">Les plus</ul>
+      <li *ngIf="article.positifPoint.length > 0" class="Inter"> {{article.positifPoint}}</li>
+    </div> -->
 
     <div class="margin">
-      <h3 class="Lora margin-buttom">Les plus</h3>
-      <li class="Inter"> {{article.positifPoint}}</li>
+      <ul *ngIf="article.positifPoint.length > 0" class="Lora margin-buttom">Les plus</ul>
+      <ng-container *ngFor="let positif of article.positifPoint">
+        <li *ngIf="article.positifPoint.length > 0" class="Inter">{{ positif }}</li>
+      </ng-container>
     </div>
 
     <div class="margin">
-      <h3 class="Lora margin-buttom">Les moins</h3>
-      <li class="Inter"> {{article.negativePoint}}</li>
+      <ul *ngIf="article.negativePoint.length > 0" class="Lora margin-buttom">Les moins</ul>
+      <ng-container *ngFor="let negatif of article.negativePoint">
+        <li *ngIf="article.negativePoint.length > 0" class="Inter">{{ negatif }}</li>
+      </ng-container>
     </div>
 
     <div class="margin">
-    <h3 class="Lora margin-buttom">Mon conseil</h3>
-    <li class="Inter"> {{article.BoardOfAdvice}}</li>
+      <ul *ngIf="article.BoardOfAdvice.length > 0" class="Lora margin-buttom"> Mon conseil</ul>
+      <ng-container *ngFor="let advice of article.BoardOfAdvice">
+        <li *ngIf="article.BoardOfAdvice.length > 0" class="Inter">{{ advice }}</li>
+      </ng-container>
     </div>
     <!-- </li> -->
   </ng-container>
-</ul>
+</section>
