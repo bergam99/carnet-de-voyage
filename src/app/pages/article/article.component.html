@@ -1,0 +1,36 @@
+<section *ngIf="article">
+  <!-- header mobile -->
+  <section class="Header-mob Inter">
+    <div class="carnet">
+      Carnet de voyages
+    </div>
+    <div class="weather">
+      <app-weather-api></app-weather-api>
+    </div>
+  </section>
+
+<!-- main -->
+  <div class="main">
+    <app-title-article></app-title-article>
+
+
+    <app-button-retour></app-button-retour>
+
+    <!-- voyage -->
+    <h2 class="Lora title font">Le voyage</h2>
+
+    <div class="line-break">
+    <app-voyage-summery emptyText="{{article.textAboutTheTrip}}"></app-voyage-summery>
+  </div>
+
+    <app-avis></app-avis>
+    <!-- resume -->
+    <h2 class="Lora title font">En résumé</h2>
+
+    <app-voyage-summery emptyText="{{article.resume}}"></app-voyage-summery>
+
+
+
+    <app-pour-voyager-un-peu-plus></app-pour-voyager-un-peu-plus>
+  </div>
+</section>

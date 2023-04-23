@@ -1,0 +1,17 @@
+.margin {
+  margin: 5vh 0;
+}
+
+
+.margin-buttom {
+  margin-bottom: 2vh;
+  padding: 0;
+
+}
+
+@media (max-width: 967px) {
+  .font {
+    font-size: larger;
+    padding-top: 2vh;
+  }
+}

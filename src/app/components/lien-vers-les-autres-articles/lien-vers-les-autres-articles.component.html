@@ -1,0 +1,23 @@
+<section>
+  <h2 class="margin title Lora font">Autres voyages</h2>
+
+  <ul class="grid">
+    <ng-container *ngFor="let article of articles">
+      <li *ngIf="article.isMainArticle === false" class="imgs">
+        <a routerLink="/articles/{{article.id}}">
+
+          <img class="img-resize" src="{{article.principalImage}}" alt="img">
+          <div class="ticket">
+            <div class="bar">
+              <div class="flex">
+                <div class="Lora font-size">{{article.country}}</div>
+                <div class="Inter size">{{article.city}}</div>
+              </div>
+            </div>
+            <div class="bar Inter"> Du {{article.dateForDeparture}}<br /> au {{article.returnDate}}</div>
+          </div>
+        </a>
+      </li>
+    </ng-container>
+  </ul>
+</section>

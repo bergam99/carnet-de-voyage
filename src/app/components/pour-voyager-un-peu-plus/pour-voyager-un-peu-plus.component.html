@@ -1,0 +1,11 @@
+<h2 class="Lora title font">pour voyager un peu plus</h2>
+
+<section>
+  <ul>
+    <li *ngIf="article" class="flex imgs">
+      <ng-container *ngFor="let url of article.secondaryImageDisplay">
+        <img class="img-resize" [src]="url" alt="img" class="img img-resize">
+      </ng-container>
+    </li>
+  </ul>
+</section>

@@ -1,0 +1,27 @@
+<h2 class="Lora margin title font">Notre avis</h2>
+
+<section>
+  <ng-container *ngIf="article">
+
+    <div class="margin">
+      <ul *ngIf="article.positifPoint.length > 0" class="Lora margin-buttom">Les plus</ul>
+      <ng-container *ngFor="let positif of article.positifPoint">
+        <li *ngIf="article.positifPoint.length > 0" class="Inter">{{ positif }}</li>
+      </ng-container>
+    </div>
+
+    <div class="margin">
+      <ul *ngIf="article.negativePoint.length > 0" class="Lora margin-buttom">Les moins</ul>
+      <ng-container *ngFor="let negatif of article.negativePoint">
+        <li *ngIf="article.negativePoint.length > 0" class="Inter">{{ negatif }}</li>
+      </ng-container>
+    </div>
+
+    <div class="margin">
+      <ul *ngIf="article.BoardOfAdvice.length > 0" class="Lora margin-buttom"> Mon conseil</ul>
+      <ng-container *ngFor="let advice of article.BoardOfAdvice">
+        <li *ngIf="article.BoardOfAdvice.length > 0" class="Inter">{{ advice }}</li>
+      </ng-container>
+    </div>
+  </ng-container>
+</section>
