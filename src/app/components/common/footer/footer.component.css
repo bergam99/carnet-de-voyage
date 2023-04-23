@@ -1,8 +1,16 @@
-.footer{
+.footer {
   width: 100%;
   /* border: 1px solid black; */
   display: flex;
   height: 50px;
   justify-content: center;
-  align-items:center;
+  align-items: center;
+  padding: 4vw;
+}
+
+
+@media (max-width: 967px) {
+  .footer {
+    padding: 0;
+  }
 }
