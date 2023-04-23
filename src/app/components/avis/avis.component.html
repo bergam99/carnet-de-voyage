@@ -2,12 +2,6 @@
 
 <section>
   <ng-container *ngIf="article">
-    <!-- <li *ngIf="articles.length> 0" class="img-container"> -->
-<!--
-    <div class="margin">
-      <ul *ngIf="article.positifPoint.length > 0" class="Lora margin-buttom font-small">Les plus</ul>
-      <li *ngIf="article.positifPoint.length > 0" class="Inter"> {{article.positifPoint}}</li>
-    </div> -->
 
     <div class="margin">
       <ul *ngIf="article.positifPoint.length > 0" class="Lora margin-buttom">Les plus</ul>
@@ -29,6 +23,5 @@
         <li *ngIf="article.BoardOfAdvice.length > 0" class="Inter">{{ advice }}</li>
       </ng-container>
     </div>
-    <!-- </li> -->
   </ng-container>
 </section>
