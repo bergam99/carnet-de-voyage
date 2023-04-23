@@ -1,7 +1,21 @@
-.flex{
+.flex {
   display: flex;
 }
 
-.margin{
+.margin {
   margin: 5vh auto 10vh;
+}
+
+
+
+@media (max-width: 967px) {
+  .font {
+    font-size: larger;
+    padding-top: 2vh;
+
+  }
+
+  /* .margin {
+    margin: 0 auto 4vh;
+  } */
 }

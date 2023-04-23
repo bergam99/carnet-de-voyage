@@ -43,7 +43,6 @@
 
 .imgs {
   width: calc(50% - 10px);
-  height: 100%;
   /* width: calc(33.33% - 10px); */
   position: relative;
   object-fit: contain;
@@ -90,6 +89,10 @@
   }
   .font-size{
     font-size:medium;
+  }
+  .font{
+    font-size: larger;
+    padding-top: 2vh;
   }
 }
 
