@@ -8,7 +8,9 @@ import { Observable } from 'rxjs';
 
 
 export class WeatherService {
-  private endpoint = 'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/Paris';
+  private temperature = 'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/Paris';
+  private weather = 'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/Paris?include=current';
+
   private params = {
     unitGroup: 'metric',
     key: 'X3EQEQMTPX9L2MUHNPYUQKTBY'
@@ -17,6 +19,9 @@ export class WeatherService {
   constructor(private http: HttpClient) { }
 
   getCurrentTemperature(): Observable<any> {
-    return this.http.get(this.endpoint, { params: this.params });
+    return this.http.get(this.temperature, { params: this.params });
+  }
+  getCurrentWeather(): Observable<any> {
+    return this.http.get(this.weather, { params: this.params });
   }
 }
