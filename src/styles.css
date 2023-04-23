@@ -63,9 +63,18 @@ body {
 }
 
 
-/*
-@media screen and (max-width: 600px) {
-  .Lora .Inter {
-    font-size: 30px;
+
+
+/* font-size */
+@media (max-width: 967px) {
+  .Inter, .Lora{
+    font-size: 2vw;
   }
-} */
+}
+
+@media (max-width: 600px) {
+  .Inter, .Lora {
+    font-size: 3vw;
+  }
+}
+

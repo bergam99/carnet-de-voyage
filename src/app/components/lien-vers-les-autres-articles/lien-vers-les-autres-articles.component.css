@@ -18,7 +18,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
 
   /* height: 70px; */
 
@@ -57,14 +57,20 @@
 
 .font-size {
   font-size: clamp(50px 5vw 30px);
+  font-weight: smaller;
+}
+
+.size {
+  font-size: smaller;
   font-weight: 100;
 }
 
 .img-resize {
   width: 100%;
-  height: 500px;
+  /* height: 500px; */
   object-fit: cover;
 }
+
 
 @media (max-width: 967px) {
   .grid {
@@ -75,6 +81,15 @@
   .imgs {
     width: 100%;
     /* margin-bottom: 10px; */
+  }
+
+  img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover
+  }
+  .font-size{
+    font-size:medium;
   }
 }
 
