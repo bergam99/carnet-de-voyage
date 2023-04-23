@@ -1,0 +1,21 @@
+.flex {
+  display: flex;
+  padding-left: 2vw;
+}
+
+p {
+  margin: 0;
+
+}
+
+.weather {
+  margin-top: 2vw;
+}
+
+
+@media (max-width: 967px) {
+  .flex {
+    padding: 0;
+    margin-bottom: 1vh;
+  }
+}

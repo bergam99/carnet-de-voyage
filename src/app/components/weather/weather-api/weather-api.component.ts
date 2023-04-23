@@ -45,7 +45,7 @@ export class WeatherApiComponent {
       case 'snow':
         return '❄️';
       default:
-        return '﹖';
+        return '﹖inconnu﹖';
     }
   }
 

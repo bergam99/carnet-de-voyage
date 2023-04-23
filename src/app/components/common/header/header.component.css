@@ -61,7 +61,9 @@
   /* Rotate the text and move it to the center horizontally */
   transform-origin: top left;
   background-color: var(--color-beige);
-
+}
+.weather{
+  left: 1vw;
 
 }
 
