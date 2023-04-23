@@ -67,4 +67,11 @@ section {
     align-items: center;
 
   }
+  .main{
+    margin: 0 5vw;
+  }
+  .font {
+    font-size: larger;
+    padding-top: 2vh;
+  }
 }

@@ -1,8 +1,8 @@
-*{
+* {
   padding: 0;
 }
 
-.flex{
+.flex {
   display: flex;
   flex-wrap: wrap;
   /* justify-content: space-between; */
@@ -23,8 +23,9 @@
   margin-left: 2.5vw;
   /* margin: 0 auto 0; */
 
-   /* border:5px solid green; */
+  /* border:5px solid green; */
 }
+
 .img-resize {
   width: 300px;
   height: 300px;
@@ -38,16 +39,20 @@
   img.img-resize {
     width: calc(30% - 10px);
     /* 간격을 위해 -10px을 줌 */
-    @media (max-width: 967px) {
-      .flex {
-        flex-direction: column;
-        align-items: center;
-      }
+@media (max-width: 967px) {
+  .flex {
+    flex-direction: column;
+    align-items: center;
+  }
 
-      .imgs {
-        width: 100%;
-        margin-left: 0;
+  .imgs {
+    width: 100%;
+    margin-left: 0;
 
-      }
+  }
 
-    }
+  .font {
+    font-size: larger;
+    padding-top: 2vh;
+  }
+}

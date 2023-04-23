@@ -9,26 +9,27 @@
     </div>
   </section>
 
-
-  <app-title-article></app-title-article>
-
-
-  <app-button-retour></app-button-retour>
-
-  <!-- voyage -->
-  <h2 class="Lora title">Le voyage</h2>
-
-  <app-voyage-summery emptyText="{{article.textAboutTheTrip}}"></app-voyage-summery>
+<!-- main -->
+  <div class="main">
+    <app-title-article></app-title-article>
 
 
-  <app-avis></app-avis>
-  <!-- resume -->
-  <h2 class="Lora title">En résumé</h2>
+    <app-button-retour></app-button-retour>
 
-  <app-voyage-summery emptyText="{{article.resume}}"></app-voyage-summery>
+    <!-- voyage -->
+    <h2 class="Lora title font">Le voyage</h2>
+
+    <app-voyage-summery emptyText="{{article.textAboutTheTrip}}"></app-voyage-summery>
+
+
+    <app-avis></app-avis>
+    <!-- resume -->
+    <h2 class="Lora title font">En résumé</h2>
+
+    <app-voyage-summery emptyText="{{article.resume}}"></app-voyage-summery>
 
 
 
-  <app-pour-voyager-un-peu-plus></app-pour-voyager-un-peu-plus>
-
+    <app-pour-voyager-un-peu-plus></app-pour-voyager-un-peu-plus>
+  </div>
 </section>

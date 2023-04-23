@@ -24,8 +24,15 @@
   cursor: pointer; /* 마우스 호버시 커서 모양 변경 */
 }
 
+.container-mob{
+  display: none;
+}
+
 
 @media (max-width: 967px) {
+  .container-mob{
+    display: block;
+  }
   .des{
     display: none;
   }
